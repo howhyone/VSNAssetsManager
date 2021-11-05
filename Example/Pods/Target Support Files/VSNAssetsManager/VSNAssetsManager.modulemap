@@ -1,0 +1,6 @@
+framework module VSNAssetsManager {
+  umbrella header "VSNAssetsManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

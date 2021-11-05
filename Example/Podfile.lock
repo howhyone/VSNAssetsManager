@@ -1,0 +1,16 @@
+PODS:
+  - VSNAssetsManager (0.1.0)
+
+DEPENDENCIES:
+  - VSNAssetsManager (from `../`)
+
+EXTERNAL SOURCES:
+  VSNAssetsManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VSNAssetsManager: 5966534f570794f024285eb35e6bdf3acef28248
+
+PODFILE CHECKSUM: 639095bcfdcb8d01052d2c585bd9d1b87953a43a
+
+COCOAPODS: 1.10.0

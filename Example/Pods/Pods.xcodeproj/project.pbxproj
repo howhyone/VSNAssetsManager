@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1872CC9C2B6AB7FD200ED3406B400BC0 /* Pods-VSNAssetsManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 384A124BAF367E82262C7A1BD2E1C4AA /* Pods-VSNAssetsManager_Tests-dummy.m */; };
+		380ED7EDF9C24ED5BAC6F39AE399692D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		54B20E642734CAF500FCDED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B20E632734CAF500FCDED8 /* Assets.xcassets */; };
+		5B6D753DC672A249DE5AEDE728C27955 /* VSNAssetsManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AF31320D8606A86B3B8E3FA3720E4 /* VSNAssetsManager-dummy.m */; };
+		75C0E9BE74E461EDA0B8EE0528660DB1 /* Pods-VSNAssetsManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 557ADACA503FF01D2A62125F5072BEA8 /* Pods-VSNAssetsManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DC4ACAC8A3563977483076FD45478DA /* Pods-VSNAssetsManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3A59957B381FF86B683555F90CA492 /* Pods-VSNAssetsManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811C61F0D512F7402ED98F4A43B05777 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232600809B0F86BF74558F4A64440E10 /* ReplaceMe.swift */; };
+		8A08363BE63411D0D4EA4E70D86949D4 /* Pods-VSNAssetsManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD333992511B9A1A145D3D5F87B65D /* Pods-VSNAssetsManager_Example-dummy.m */; };
+		93DD1346518ABB67CDB41CEDD22A4CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		942649417D3E05B1532B4EFCABD7BE7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B1DBDE14AC10BA07734506F3D5537469 /* VSNAssetsManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA6F4FF71AF6D8AC68CC89385CC0359 /* VSNAssetsManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77E6A7B7D3F15C8A41382BF25B5FC08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5499DD8BDFA5CF37B661A23E73730C5E;
+			remoteInfo = "Pods-VSNAssetsManager_Example";
+		};
+		A82A360372A7E063115059A6BD048FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A9F75AAD8BF5A988FBE00A451AB703;
+			remoteInfo = VSNAssetsManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09D3CBB6580D9BCD0317785CCF29DA3C /* Pods_VSNAssetsManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSNAssetsManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D80601824DA26D3F4E471AAA0D8E4B7 /* Pods-VSNAssetsManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSNAssetsManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1A3A59957B381FF86B683555F90CA492 /* Pods-VSNAssetsManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VSNAssetsManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		1EB6690BA3A0DB2AD2F62064063A4AE7 /* VSNAssetsManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VSNAssetsManager-Info.plist"; sourceTree = "<group>"; };
+		232600809B0F86BF74558F4A64440E10 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = VSNAssetsManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		2BFD333992511B9A1A145D3D5F87B65D /* Pods-VSNAssetsManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VSNAssetsManager_Example-dummy.m"; sourceTree = "<group>"; };
+		34963D209F67BF9B2B4A0CCB694AAACD /* Pods-VSNAssetsManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VSNAssetsManager_Tests.modulemap"; sourceTree = "<group>"; };
+		384A124BAF367E82262C7A1BD2E1C4AA /* Pods-VSNAssetsManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VSNAssetsManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E740F9E14F98E345EB2090034B40955 /* Pods-VSNAssetsManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSNAssetsManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54B20E632734CAF500FCDED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = VSNAssetsManager/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		557ADACA503FF01D2A62125F5072BEA8 /* Pods-VSNAssetsManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VSNAssetsManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5BF53206B3DDDB0DB92A12C3ABBC3436 /* VSNAssetsManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSNAssetsManager.release.xcconfig; sourceTree = "<group>"; };
+		6865443CEDF216F364EE260AE0A4AFDC /* VSNAssetsManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSNAssetsManager-prefix.pch"; sourceTree = "<group>"; };
+		6CFF97A2FBB28A4AD6E2B7449EE70593 /* Pods-VSNAssetsManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSNAssetsManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6FBBD3EBCA5D126A2AF8493FFC2006D3 /* VSNAssetsManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VSNAssetsManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A3AF31320D8606A86B3B8E3FA3720E4 /* VSNAssetsManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VSNAssetsManager-dummy.m"; sourceTree = "<group>"; };
+		7ADE4855BA940F289FECB3770507B6EE /* Pods-VSNAssetsManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSNAssetsManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		86519AF93B5F495FE9EA6883326AEBCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8915BDAE01C221F4520A817FE81CCED9 /* Pods_VSNAssetsManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSNAssetsManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4CCD840A0EFAFA65C54E751BEA3BB9 /* Pods-VSNAssetsManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VSNAssetsManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E7DAC518B6FA36147106976C68AF8C9 /* Pods-VSNAssetsManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VSNAssetsManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C457649D5C4DD2D5357778957285C91 /* Pods-VSNAssetsManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VSNAssetsManager_Example.modulemap"; sourceTree = "<group>"; };
+		9CCD9CC47BE57A22944F429732A4BD2E /* Pods-VSNAssetsManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSNAssetsManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA6F4FF71AF6D8AC68CC89385CC0359 /* VSNAssetsManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSNAssetsManager-umbrella.h"; sourceTree = "<group>"; };
+		B6A8B52D4E7B2FE309D6AE11A16F27B9 /* VSNAssetsManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VSNAssetsManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0E173688C96E1BD8EADFC5F5DB6C7E /* Pods-VSNAssetsManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSNAssetsManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		BD900E388127AD0E0BE080BDF1A842E8 /* Pods-VSNAssetsManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VSNAssetsManager_Example-Info.plist"; sourceTree = "<group>"; };
+		DFED10D09D6CE0D8CCF0866537D0485B /* Pods-VSNAssetsManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VSNAssetsManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E946918C99C3B3D04F182FA44C045CD8 /* VSNAssetsManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VSNAssetsManager.modulemap; sourceTree = "<group>"; };
+		EDB93170CE809FF455906508C7846941 /* VSNAssetsManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSNAssetsManager.debug.xcconfig; sourceTree = "<group>"; };
+		EEE1EE86962C6BD8A6CE4F4FB3A23D40 /* Pods-VSNAssetsManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VSNAssetsManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EF9069CD62116B4F0E2551549B522893 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F83CE0ECFDD34FAF48433E74DEE94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942649417D3E05B1532B4EFCABD7BE7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB08571E5B315BC6372A53C71FE63A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DD1346518ABB67CDB41CEDD22A4CA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B12FBD3D3428CA290D6CF473688C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380ED7EDF9C24ED5BAC6F39AE399692D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AFB0D6D38D23C60CE6A0E21268F62AB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAB67CA4E07F102AECC1DB0D6732229C /* VSNAssetsManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		529072CECC05ABA39B87FA5973712024 /* Pods-VSNAssetsManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				34963D209F67BF9B2B4A0CCB694AAACD /* Pods-VSNAssetsManager_Tests.modulemap */,
+				8E4CCD840A0EFAFA65C54E751BEA3BB9 /* Pods-VSNAssetsManager_Tests-acknowledgements.markdown */,
+				9CCD9CC47BE57A22944F429732A4BD2E /* Pods-VSNAssetsManager_Tests-acknowledgements.plist */,
+				384A124BAF367E82262C7A1BD2E1C4AA /* Pods-VSNAssetsManager_Tests-dummy.m */,
+				BB0E173688C96E1BD8EADFC5F5DB6C7E /* Pods-VSNAssetsManager_Tests-Info.plist */,
+				557ADACA503FF01D2A62125F5072BEA8 /* Pods-VSNAssetsManager_Tests-umbrella.h */,
+				8E7DAC518B6FA36147106976C68AF8C9 /* Pods-VSNAssetsManager_Tests.debug.xcconfig */,
+				6CFF97A2FBB28A4AD6E2B7449EE70593 /* Pods-VSNAssetsManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-VSNAssetsManager_Tests";
+			path = "Target Support Files/Pods-VSNAssetsManager_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B2E06326C196AFCD18509D0C812AF6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B190CB1CB1674809E995F25FA2CE0A17 /* Pods-VSNAssetsManager_Example */,
+				529072CECC05ABA39B87FA5973712024 /* Pods-VSNAssetsManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6BB70D007639D24D82D3653663CC053D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E946918C99C3B3D04F182FA44C045CD8 /* VSNAssetsManager.modulemap */,
+				7A3AF31320D8606A86B3B8E3FA3720E4 /* VSNAssetsManager-dummy.m */,
+				1EB6690BA3A0DB2AD2F62064063A4AE7 /* VSNAssetsManager-Info.plist */,
+				6865443CEDF216F364EE260AE0A4AFDC /* VSNAssetsManager-prefix.pch */,
+				9EA6F4FF71AF6D8AC68CC89385CC0359 /* VSNAssetsManager-umbrella.h */,
+				EDB93170CE809FF455906508C7846941 /* VSNAssetsManager.debug.xcconfig */,
+				5BF53206B3DDDB0DB92A12C3ABBC3436 /* VSNAssetsManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VSNAssetsManager";
+			sourceTree = "<group>";
+		};
+		B190CB1CB1674809E995F25FA2CE0A17 /* Pods-VSNAssetsManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9C457649D5C4DD2D5357778957285C91 /* Pods-VSNAssetsManager_Example.modulemap */,
+				DFED10D09D6CE0D8CCF0866537D0485B /* Pods-VSNAssetsManager_Example-acknowledgements.markdown */,
+				7ADE4855BA940F289FECB3770507B6EE /* Pods-VSNAssetsManager_Example-acknowledgements.plist */,
+				2BFD333992511B9A1A145D3D5F87B65D /* Pods-VSNAssetsManager_Example-dummy.m */,
+				EEE1EE86962C6BD8A6CE4F4FB3A23D40 /* Pods-VSNAssetsManager_Example-frameworks.sh */,
+				BD900E388127AD0E0BE080BDF1A842E8 /* Pods-VSNAssetsManager_Example-Info.plist */,
+				1A3A59957B381FF86B683555F90CA492 /* Pods-VSNAssetsManager_Example-umbrella.h */,
+				3E740F9E14F98E345EB2090034B40955 /* Pods-VSNAssetsManager_Example.debug.xcconfig */,
+				0D80601824DA26D3F4E471AAA0D8E4B7 /* Pods-VSNAssetsManager_Example.release.xcconfig */,
+			);
+			name = "Pods-VSNAssetsManager_Example";
+			path = "Target Support Files/Pods-VSNAssetsManager_Example";
+			sourceTree = "<group>";
+		};
+		B8BC440AEB5B52825F596AE25498BC52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8915BDAE01C221F4520A817FE81CCED9 /* Pods_VSNAssetsManager_Example.framework */,
+				09D3CBB6580D9BCD0317785CCF29DA3C /* Pods_VSNAssetsManager_Tests.framework */,
+				B6A8B52D4E7B2FE309D6AE11A16F27B9 /* VSNAssetsManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB67CA4E07F102AECC1DB0D6732229C /* VSNAssetsManager */ = {
+			isa = PBXGroup;
+			children = (
+				232600809B0F86BF74558F4A64440E10 /* ReplaceMe.swift */,
+				DC3012EC753154996C8DD8A19F555DC4 /* Pod */,
+				6BB70D007639D24D82D3653663CC053D /* Support Files */,
+				54B20E632734CAF500FCDED8 /* Assets.xcassets */,
+			);
+			name = VSNAssetsManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3AFB0D6D38D23C60CE6A0E21268F62AB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B8BC440AEB5B52825F596AE25498BC52 /* Products */,
+				6B2E06326C196AFCD18509D0C812AF6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC3012EC753154996C8DD8A19F555DC4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				86519AF93B5F495FE9EA6883326AEBCD /* LICENSE */,
+				EF9069CD62116B4F0E2551549B522893 /* README.md */,
+				6FBBD3EBCA5D126A2AF8493FFC2006D3 /* VSNAssetsManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7B2FF37092AFDE7B855B0960752FC213 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C0E9BE74E461EDA0B8EE0528660DB1 /* Pods-VSNAssetsManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0743B852B03466599D0A21DE84D294F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC4ACAC8A3563977483076FD45478DA /* Pods-VSNAssetsManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF81A65BC9C591053B7EB196381DF4B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DBDE14AC10BA07734506F3D5537469 /* VSNAssetsManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5499DD8BDFA5CF37B661A23E73730C5E /* Pods-VSNAssetsManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E13927C06C5AFEEF9B624D3C7EAACBB /* Build configuration list for PBXNativeTarget "Pods-VSNAssetsManager_Example" */;
+			buildPhases = (
+				A0743B852B03466599D0A21DE84D294F /* Headers */,
+				466CA7500948B5495D3CEF36BC4606BF /* Sources */,
+				95F83CE0ECFDD34FAF48433E74DEE94B /* Frameworks */,
+				366E5D348FF3B3A70C737341C06290A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C061BB73D5735DEA93D68F9E015FF95F /* PBXTargetDependency */,
+			);
+			name = "Pods-VSNAssetsManager_Example";
+			productName = "Pods-VSNAssetsManager_Example";
+			productReference = 8915BDAE01C221F4520A817FE81CCED9 /* Pods_VSNAssetsManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D4C999921563F72D61B311EF2BCCC4A /* Pods-VSNAssetsManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4D58969D3A65FBE6E6FFE25ACF458C /* Build configuration list for PBXNativeTarget "Pods-VSNAssetsManager_Tests" */;
+			buildPhases = (
+				7B2FF37092AFDE7B855B0960752FC213 /* Headers */,
+				0F67F7E11AEBD3E031F65D57F32CDA86 /* Sources */,
+				DDB08571E5B315BC6372A53C71FE63A4 /* Frameworks */,
+				8E13502926C1293B20B674186DCD97DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEDB352A13286CB7540A9D46B4A07D81 /* PBXTargetDependency */,
+			);
+			name = "Pods-VSNAssetsManager_Tests";
+			productName = "Pods-VSNAssetsManager_Tests";
+			productReference = 09D3CBB6580D9BCD0317785CCF29DA3C /* Pods_VSNAssetsManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99A9F75AAD8BF5A988FBE00A451AB703 /* VSNAssetsManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A093656B62B44CFE5E0751A818D5874A /* Build configuration list for PBXNativeTarget "VSNAssetsManager" */;
+			buildPhases = (
+				DF81A65BC9C591053B7EB196381DF4B2 /* Headers */,
+				D75B78198C2FD5914F09384DFEA3CD0D /* Sources */,
+				E2B12FBD3D3428CA290D6CF473688C6A /* Frameworks */,
+				98472098D64AF37EAA80853E4100133A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSNAssetsManager;
+			productName = VSNAssetsManager;
+			productReference = B6A8B52D4E7B2FE309D6AE11A16F27B9 /* VSNAssetsManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B8BC440AEB5B52825F596AE25498BC52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5499DD8BDFA5CF37B661A23E73730C5E /* Pods-VSNAssetsManager_Example */,
+				6D4C999921563F72D61B311EF2BCCC4A /* Pods-VSNAssetsManager_Tests */,
+				99A9F75AAD8BF5A988FBE00A451AB703 /* VSNAssetsManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		366E5D348FF3B3A70C737341C06290A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E13502926C1293B20B674186DCD97DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98472098D64AF37EAA80853E4100133A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B20E642734CAF500FCDED8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F67F7E11AEBD3E031F65D57F32CDA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1872CC9C2B6AB7FD200ED3406B400BC0 /* Pods-VSNAssetsManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466CA7500948B5495D3CEF36BC4606BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A08363BE63411D0D4EA4E70D86949D4 /* Pods-VSNAssetsManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D75B78198C2FD5914F09384DFEA3CD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811C61F0D512F7402ED98F4A43B05777 /* ReplaceMe.swift in Sources */,
+				5B6D753DC672A249DE5AEDE728C27955 /* VSNAssetsManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C061BB73D5735DEA93D68F9E015FF95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VSNAssetsManager;
+			target = 99A9F75AAD8BF5A988FBE00A451AB703 /* VSNAssetsManager */;
+			targetProxy = A82A360372A7E063115059A6BD048FBD /* PBXContainerItemProxy */;
+		};
+		FEDB352A13286CB7540A9D46B4A07D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VSNAssetsManager_Example";
+			target = 5499DD8BDFA5CF37B661A23E73730C5E /* Pods-VSNAssetsManager_Example */;
+			targetProxy = 77E6A7B7D3F15C8A41382BF25B5FC08A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2139D1CBD5D920B7772A043BB1B00D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF53206B3DDDB0DB92A12C3ABBC3436 /* VSNAssetsManager.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VSNAssetsManager/VSNAssetsManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VSNAssetsManager/VSNAssetsManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VSNAssetsManager/VSNAssetsManager.modulemap";
+				PRODUCT_MODULE_NAME = VSNAssetsManager;
+				PRODUCT_NAME = VSNAssetsManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		59B811106D3391C1B408C008316A75E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7DAC518B6FA36147106976C68AF8C9 /* Pods-VSNAssetsManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VSNAssetsManager_Tests/Pods-VSNAssetsManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VSNAssetsManager_Tests/Pods-VSNAssetsManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7044B5DA8BA39482D524F7BF277DBDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D80601824DA26D3F4E471AAA0D8E4B7 /* Pods-VSNAssetsManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VSNAssetsManager_Example/Pods-VSNAssetsManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VSNAssetsManager_Example/Pods-VSNAssetsManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7616B5D314BE913A2FDA9749A9FB04A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB93170CE809FF455906508C7846941 /* VSNAssetsManager.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VSNAssetsManager/VSNAssetsManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VSNAssetsManager/VSNAssetsManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VSNAssetsManager/VSNAssetsManager.modulemap";
+				PRODUCT_MODULE_NAME = VSNAssetsManager;
+				PRODUCT_NAME = VSNAssetsManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AECB8C625A978FF7A09C5000CFA46C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E740F9E14F98E345EB2090034B40955 /* Pods-VSNAssetsManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VSNAssetsManager_Example/Pods-VSNAssetsManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VSNAssetsManager_Example/Pods-VSNAssetsManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B49ABA63C9827FE839589552FA5BF6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFF97A2FBB28A4AD6E2B7449EE70593 /* Pods-VSNAssetsManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VSNAssetsManager_Tests/Pods-VSNAssetsManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VSNAssetsManager_Tests/Pods-VSNAssetsManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4D58969D3A65FBE6E6FFE25ACF458C /* Build configuration list for PBXNativeTarget "Pods-VSNAssetsManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B811106D3391C1B408C008316A75E4 /* Debug */,
+				B49ABA63C9827FE839589552FA5BF6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E13927C06C5AFEEF9B624D3C7EAACBB /* Build configuration list for PBXNativeTarget "Pods-VSNAssetsManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECB8C625A978FF7A09C5000CFA46C04 /* Debug */,
+				7044B5DA8BA39482D524F7BF277DBDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A093656B62B44CFE5E0751A818D5874A /* Build configuration list for PBXNativeTarget "VSNAssetsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7616B5D314BE913A2FDA9749A9FB04A8 /* Debug */,
+				2139D1CBD5D920B7772A043BB1B00D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
