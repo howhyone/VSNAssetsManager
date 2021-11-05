@@ -29,10 +29,10 @@
 
 /* Begin PBXFileReference section */
 		03B99E43FB7318D9A8C970E4 /* Pods-VSNAssetsManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSNAssetsManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VSNAssetsManager_Tests/Pods-VSNAssetsManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		03FA4166CA3DE3CCD9739E42 /* VSNAssetsManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VSNAssetsManager.podspec; path = ../VSNAssetsManager.podspec; sourceTree = "<group>"; };
+		03FA4166CA3DE3CCD9739E42 /* VSNAssetsManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VSNAssetsManager.podspec; path = ../VSNAssetsManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A650FB147D8F4BEF1271FE1 /* Pods-VSNAssetsManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSNAssetsManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-VSNAssetsManager_Tests/Pods-VSNAssetsManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2761194932D05761CCF17BC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		30D657CDB178F6CC70285D39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2761194932D05761CCF17BC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30D657CDB178F6CC70285D39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B9F1187504C223816F42A5B /* Pods-VSNAssetsManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSNAssetsManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-VSNAssetsManager_Example/Pods-VSNAssetsManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* VSNAssetsManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSNAssetsManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				03B99E43FB7318D9A8C970E4 /* Pods-VSNAssetsManager_Tests.debug.xcconfig */,
 				0A650FB147D8F4BEF1271FE1 /* Pods-VSNAssetsManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
